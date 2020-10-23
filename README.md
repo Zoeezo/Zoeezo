@@ -1,16 +1,25 @@
-### Hi there 👋
+```python
+class Zoey():
 
-<!--
-**Zoeezo/Zoeezo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    def __init__(self, birthday):
+        self.birthday = '10/04/2004'
 
-Here are some ideas to get you started:
+    def getName(self):
+        return 'Zoey Bosman'
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    def getAge(self):
+        return 16
+
+    def getLanguages(self):
+        return ['Python', 'Java', 'Javascript', 'Nodejs']
+
+    def getEducations(self):
+        return {'Mediacollege Amsterdam': 
+                {'Start Year': 2020, 'End year': 2025, 'Degree': 'MBO 4', 'Field of Study': 'Software Developer'}}
+
+    def getHobbies(self):
+        return ['Programming', 'Longboarding', 'Sleeping', 'Cooking']
+
+    def getFutureGoal(self):
+        return 'Make lots of applications to make peoples life easier and more fun!'
+```
