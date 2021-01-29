@@ -5,7 +5,7 @@ class Zoey():
         self.birthday = '10/04/2004'
 
     def getName(self):
-        return 'Zoey Bosman'
+        return 'Zoey Eijgenberger'
 
     def getAge(self):
         return 16
